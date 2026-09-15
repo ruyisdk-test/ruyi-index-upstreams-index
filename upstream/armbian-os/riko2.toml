@@ -1,0 +1,15 @@
+[upstream]
+source = "github"
+github = "armbian/os"
+
+[mirror]
+urls = [
+	"mirror://armbian-archive/cache/os/",
+]
+
+[packages]
+board-image = [
+	"armbian-spacemit-musepipro-minimal",
+	"armbian-spacemit-musepipro-xfce",
+]
+

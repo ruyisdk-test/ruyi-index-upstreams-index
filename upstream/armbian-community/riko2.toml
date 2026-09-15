@@ -1,0 +1,18 @@
+[nvchecker]
+source = "github"
+github = "armbian/community"
+
+[mirror]
+urls = [
+	"mirror://armbian-archive/cache/community/",
+]
+
+[packages]
+board-image = [
+	"armbian-orangepi-rv2-minimal",
+	"armbian-orangepi-rv2-xfce",
+	"armbian-starfive-visionfive2-minimal",
+	"armbian-starfive-visionfive2-xfce",
+	"armbian-uefi-riscv64-minimal",
+	"armbian-uefi-riscv64-xfce",
+]
