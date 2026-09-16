@@ -1,0 +1,12 @@
+[upstream]
+source = "web"
+
+[mirror]
+urls = [
+	"mirror://openbsd/",
+]
+
+[packages]
+board-image = [
+	"openbsd-riscv64-live",
+]

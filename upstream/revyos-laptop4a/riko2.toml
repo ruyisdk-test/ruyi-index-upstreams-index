@@ -1,0 +1,14 @@
+[upstream]
+source = "web"
+
+[mirror]
+url = [
+	"mirror://revyos/extra/images/laptop4a/",
+]
+
+[packages]
+board-image = [
+	"revyos-sipeed-laptop4a",
+	"uboot-revyos-sipeed-laptop4a-8g",
+	"uboot-revyos-sipeed-laptop4a-16g",
+]

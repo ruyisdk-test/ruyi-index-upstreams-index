@@ -1,0 +1,12 @@
+[upstream]
+source = "web"
+
+[mirror]
+url = [
+	"mirror://revyos/extra/images/sg2042/",
+]
+
+[packages]
+board-image = [
+	"revyos-milkv-pioneer",
+]

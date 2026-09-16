@@ -1,0 +1,9 @@
+[nvchecker]
+source = "github"
+github = "Fishwaldo/sophgo-sg200x-debian"
+
+[packages]
+board-image = [
+	"debian-fishwaldo-sg200x-sipeed-licheervnano",
+]
+

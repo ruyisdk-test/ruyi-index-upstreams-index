@@ -1,0 +1,17 @@
+[upstream]
+source = "web"
+
+[mirror]
+url = [
+	"mirror://openkylin-cdimage/",
+]
+
+[packages]
+board-image = [
+	"openkylin-riscv64-sifive-unmatched",
+]
+
+# cannot get version list from the webpage
+# so no need to support it
+#[policies]
+#openkylin-riscv64-sifive-unmatched = ["skip"]

@@ -1,0 +1,13 @@
+[upstream]
+source = "web"
+
+[mirror]
+url = [
+	"mirror://freebsd-releases/riscv/riscv64/ISO-IMAGES/",
+	"mirror://freebsd-old-releases/riscv/riscv64/ISO-IMAGES/",
+]
+
+[packages]
+board-image = [
+	"freebsd-riscv64-mini-live",
+]

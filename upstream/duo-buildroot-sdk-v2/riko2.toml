@@ -1,0 +1,14 @@
+[upstream]
+source = "github"
+github = "milkv-duo/duo-buildroot-sdk-v2"
+
+[packages]
+board-image = [
+	"buildroot-sdk-milkv-duo",
+	"buildroot-sdk-milkv-duo256m",
+	"buildroot-sdk-milkv-duos-sd",
+	# "buildroot-sdk-milkv-duo256m-python",
+	# "buildroot-sdk-milkv-duo-python",
+	# see: https://github.com/ruyisdk/packages-index/pull/75
+]
+

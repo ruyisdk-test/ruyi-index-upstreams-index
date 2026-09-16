@@ -1,0 +1,12 @@
+[upstream]
+source = "web"
+
+[mirror]
+url = [
+	"https://mirrors.tuna.tsinghua.edu.cn/openwrt/releases/",
+]
+
+[packages]
+board-image = [
+	"openwrt-sifive-unmatched",
+]

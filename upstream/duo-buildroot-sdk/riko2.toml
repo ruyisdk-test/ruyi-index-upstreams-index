@@ -1,0 +1,9 @@
+[upstream]
+source = "github"
+github = "milkv-duo/duo-buildroot-sdk"
+
+[packages]
+board-image = [
+	"arduino-milkv-duo-sd",
+	"arduino-milkv-duo256m-sd",
+]

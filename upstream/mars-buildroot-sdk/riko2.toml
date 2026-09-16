@@ -1,0 +1,9 @@
+[upstream]
+source = "github"
+github = "milkv-mars/mars-buildroot-sdk"
+
+[packages]
+board-image = [
+	"debian-desktop-sdk-milkv-mars-sd",
+	"debian-desktop-sdk-milkv-mars-cm-sd",
+]

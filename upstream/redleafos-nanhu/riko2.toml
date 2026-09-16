@@ -1,0 +1,12 @@
+[upstream]
+source = "web"
+
+[mirror]
+url = [
+	"https://mirror.iscas.ac.cn/redleafos/extra/images/",
+]
+
+[packages]
+board-image = [
+	"redleafos-xiangshan-nanhu",
+]

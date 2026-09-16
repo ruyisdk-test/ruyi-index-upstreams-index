@@ -1,0 +1,13 @@
+[upstream]
+source = "web"
+
+[mirror]
+url = [
+	"mirror://ubuntu-cdimage/releases/",
+	"https://old-releases.ubuntu.com/releases/",
+]
+
+[packages]
+board-image = [
+	"ubuntu-server-riscv64-sifive-unmatched",
+]

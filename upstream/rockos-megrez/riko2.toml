@@ -1,0 +1,12 @@
+[upstream]
+source = "web"
+
+[mirror]
+url = [
+	"https://mirror.iscas.ac.cn/rockos/images/generic/",
+]
+
+[packages]
+board-image = [
+	"rockos-milkv-megrez",
+]

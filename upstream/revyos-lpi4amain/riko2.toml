@@ -1,0 +1,18 @@
+[upstream]
+source = "web"
+
+[mirror]
+url = [
+	"mirror://revyos/extra/images/lpi4amain/",
+]
+
+[packages]
+board-image = [
+	"revyos-sipeed-lc4a",
+	"uboot-revyos-sipeed-lc4a-8g",
+	"uboot-revyos-sipeed-lc4a-16g",
+]
+
+# [policies]
+# uboot-revyos-sipeed-lc4a-8g = ["keep_back"]
+# uboot-revyos-sipeed-lc4a-16g = ["keep_back"]

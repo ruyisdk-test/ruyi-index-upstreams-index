@@ -1,0 +1,17 @@
+[upstream]
+source = "web"
+
+[mirror]
+url = [
+	"https://archive.spacemit.com/image/k1/version/bianbu/",
+]
+
+[packages]
+board-image = [
+	"bianbu-minimal-spacemit-k1",
+	"bianbu-minimal-spacemit-k1-sd",
+	"bianbu-desktop-spacemit-k1",
+	"bianbu-desktop-spacemit-k1-sd",
+	"bianbu-desktop-lite-spacemit-k1",
+	"bianbu-desktop-lite-spacemit-k1-sd",
+]
