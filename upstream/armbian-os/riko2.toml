@@ -4,7 +4,7 @@ github = "armbian/os"
 with_mirror = true
 
 [mirror]
-urls = [
+url = [
 	"mirror://armbian-archive/cache/os/",
 ]
 
