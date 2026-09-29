@@ -1,6 +1,7 @@
 [upstream]
 source = "github"
 github = "armbian/os"
+with_mirror = true
 
 [mirror]
 urls = [
