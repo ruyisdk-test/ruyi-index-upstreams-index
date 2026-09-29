@@ -2,7 +2,7 @@
 source = "web"
 
 [mirror]
-urls = [
+url = [
 	"mirror://openbsd/",
 ]
 

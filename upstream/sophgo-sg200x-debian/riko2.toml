@@ -1,4 +1,4 @@
-[nvchecker]
+[upstream]
 source = "github"
 github = "Fishwaldo/sophgo-sg200x-debian"
 
@@ -6,4 +6,3 @@ github = "Fishwaldo/sophgo-sg200x-debian"
 board-image = [
 	"debian-fishwaldo-sg200x-sipeed-licheervnano",
 ]
-
