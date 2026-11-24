@@ -14,4 +14,6 @@ board-image = [
 	"bianbu-desktop-spacemit-k1-sd",
 	"bianbu-desktop-lite-spacemit-k1",
 	"bianbu-desktop-lite-spacemit-k1-sd",
+	"bianbu-desktop-lite-uefi-spacemit-k1",
+	"bianbu-desktop-lite-uefi-spacemit-k1-sd",
 ]
